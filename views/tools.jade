@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  section.page-inner
+    div
+      each tool in tools
+        a.tool-card.boxy.ease(href="#{tool.link}")
+          img.card-icon(src='#{tool.icon}')
+          p.card-title #{tool.name}
+          p.card-description #{tool.description}

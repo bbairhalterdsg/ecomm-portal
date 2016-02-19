@@ -1,0 +1,90 @@
+/* UNIVERSAL STYLES */
+body {
+  background:#f4f4f4;
+  padding:0;
+  margin:0;
+}
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  color:#006554;
+}
+
+nav {
+  background: #666;
+  width:100%;
+  top:0;
+  position:relative;
+  text-align:right;
+  padding:1%;
+  -webkit-box-shadow: 0 3px 5px 0 #404040;
+  box-shadow: 0 3px 5px 0 #404040;
+  margin-bottom:20px;
+}
+
+nav a {
+  font-size:30px;
+  text-decoration:none;
+  margin-right:2%;
+  font-weight:bold;
+  color:;
+}
+
+nav a:hover {
+  color:white;
+}
+
+.page-inner {
+  width:80%;
+  margin:auto;
+  text-align:center;
+}
+
+/* LINKS */
+.tool-card {
+  width:45%;
+  min-width:44px;
+  max-width:200px;
+  border:1px solid #666;
+  margin:1%;
+  display:inline-block;
+  padding:1%;
+  text-align:center;
+}
+
+.card-icon {
+  width:80%;
+  max-width:200px;
+  margin:auto;
+}
+
+.card-title {
+  margin:auto;
+  font-size:18px;
+}
+
+.card-description {
+  width:80%;
+  margin:auto;
+  font-size:14px;
+}
+
+/* HELPER STYLES */
+.ease {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.boxy {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.boxy:hover {
+  -webkit-box-shadow: 0 3px 4px 0 #404040;
+  box-shadow: 0 3px 4px 0 #404040;
+}

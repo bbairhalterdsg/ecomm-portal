@@ -1,0 +1,41 @@
+{
+  "name": "ecomm-portal",
+  "version": "1.0.0",
+  "description": "collection of ecommerce data entry tools",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "consolidate": "^0.14.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "forever-monitor": "^1.7.0",
+    "less": "^2.6.0",
+    "path": "^0.12.7",
+    "react": "^0.14.7",
+    "swig": "^1.4.2"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbairhalterdsg/ecomm-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbairhalterdsg/ecomm-portal/issues"
+  },
+  "homepage": "https://github.com/bbairhalterdsg/ecomm-portal#readme"
+}
